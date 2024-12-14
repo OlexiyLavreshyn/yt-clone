@@ -24,7 +24,7 @@ function SignUpForm(props) {
 
   const register = (e) => {
     e.preventDefault();
-    Axios.post("https://yt-clone-backend-05d9.onrender.com/register", {
+    Axios.post("https://yt-clone-pt2b.onrender.com/register", {
       name: name,
       email: email,
       password: password,

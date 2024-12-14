@@ -11,7 +11,7 @@ const MainPage = () => {
   const fetchVideos = async (query = '') => {
     try {
       const token = localStorage.getItem('token'); // Get the JWT token from localStorage
-      const response = await axios.get('https://yt-clone-backend-05d9.onrender.com/videos', {
+      const response = await axios.get('https://yt-clone-pt2b.onrender.com/videos', {
         params: { search: query }, // Send search query to the backend
         headers: {
           Authorization: `Bearer ${token}`, // Send the JWT token in the Authorization header

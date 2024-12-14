@@ -26,7 +26,7 @@ const Settings = () => {
       setUserId(decodedToken.userId);
       setNewUsername(decodedToken.userName); // Pre-fill the newUsername field
   
-      fetch(`https://yt-clone-backend-05d9.onrender.com/get-user-info?userId=${decodedToken.userId}`, {
+      fetch(`https://yt-clone-pt2b.onrender.com/get-user-info?userId=${decodedToken.userId}`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -69,7 +69,7 @@ console.log(avatarBase64)
       formData.append('avatar', selectedImage);
     }
 
-    fetch('https://yt-clone-backend-05d9.onrender.com/update-user-info', {
+    fetch('https://yt-clone-pt2b.onrender.com/update-user-info', {
       method: 'PUT',
       headers: {
         'Authorization': `Bearer ${localStorage.getItem('token')}`
@@ -149,7 +149,7 @@ console.log(avatarBase64)
     const userId = localStorage.getItem('userId'); // or wherever you store your user ID
 
   
-    const response = await fetch('https://yt-clone-backend-05d9.onrender.com/update-password', {
+    const response = await fetch('https://yt-clone-pt2b.onrender.com/update-password', {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

@@ -9,7 +9,7 @@ function ProfilePage() {
   const fetchUserData = () => {
     const token = localStorage.getItem('token');
 
-    fetch('http://localhost:3001/SetProfile', {
+    fetch('https://yt-clone-pt2b.onrender.com/SetProfile', {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${token}`,
@@ -36,7 +36,7 @@ function ProfilePage() {
       userName: userName,
     };
 
-    fetch('https://yt-clone-backend-05d9.onrender.com/update-profile', {
+    fetch('https://yt-clone-pt2b.onrender.com/update-profile', {
       method: 'PUT',
       headers: {
         'Authorization': `Bearer ${token}`,

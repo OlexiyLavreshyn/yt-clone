@@ -10,7 +10,7 @@ function LoginForm() {
 
   const login = (e) => {
     e.preventDefault();
-    Axios.post("https://yt-clone-backend-05d9.onrender.com/login", {
+    Axios.post("https://yt-clone-pt2b.onrender.com/login", {
       email: email,
       password: password,
     })

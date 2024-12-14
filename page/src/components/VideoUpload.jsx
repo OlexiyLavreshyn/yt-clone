@@ -29,7 +29,7 @@ const VideoUpload = () => {
     try {
       const token = localStorage.getItem('token');
       
-      const response = await axios.post('https://yt-clone-backend-05d9.onrender.com/upload-video', formData, {
+      const response = await axios.post('https://yt-clone-pt2b.onrender.com/upload-video', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
            Authorization: `Bearer ${token}`, // Send the JWT token in the Authorization header

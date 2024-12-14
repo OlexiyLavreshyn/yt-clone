@@ -31,7 +31,7 @@ function PassChange() {
 
     // Send a POST request to your backend to change the password
     try {
-      const response = await fetch('https://yt-clone-backend-05d9.onrender.com/change-password', {
+      const response = await fetch('https://yt-clone-pt2b.onrender.com/change-password', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

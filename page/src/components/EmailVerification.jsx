@@ -13,7 +13,7 @@ function EmailVerification() {
 
   const handleVerification = () => {
     // Send a request to your backend to verify the code
-    Axios.post("https://yt-clone-backend-05d9.onrender.com/verify-code", {
+    Axios.post("https://yt-clone-pt2b.onrender.com/verify-code", {
       email: email,
       verificationCode: verificationCode,
     })
