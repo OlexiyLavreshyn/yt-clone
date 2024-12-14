@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with the actual origin of your React app
+  origin: 'https://yt-clone-frontend-bxl3.onrender.com', // Replace with the actual origin of your React app
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allow credentials like cookies (if needed)
 };
