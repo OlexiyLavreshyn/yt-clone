@@ -1,0 +1,66 @@
+/* App.css */
+
+.App {
+
+  height: 100vh;
+
+}
+
+body{
+  font-family: "Rubik", sans-serif;
+}
+
+.abit{
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.text321{
+  cursor: pointer;
+}
+
+
+
+/* Hide scrollbar for Firefox */
+.search-results {
+  scrollbar-width: thin; /* Firefox */
+  border-radius: 5px;
+}
+
+/* Hide scrollbar for Webkit/Blink */
+.search-results::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb */
+.search-results::-webkit-scrollbar-thumb {
+  background: rgb(102, 102, 102); /* Gray color */
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb on hover */
+.search-results::-webkit-scrollbar-thumb:hover {
+  background: #818181; /* Darker gray color on hover */
+  border-radius: 5px;
+}
+
+/* Hide scrollbar for Webkit/Blink */
+body::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  background-color: #2C2C2C;
+}
+
+/* Style the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+  background: #6d6d6d; /* Gray color */
+  border-radius: 10px;
+  background-color: #6e6e6e;
+  border: solid 3px #2C2C2C;
+}
+
+/* Style the scrollbar thumb on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #939393; /* Darker gray color on hover */
+}
+

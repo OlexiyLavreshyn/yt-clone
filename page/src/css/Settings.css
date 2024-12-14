@@ -1,0 +1,116 @@
+.PageList {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    position: flex;
+    width: 150px;
+    height: auto;
+    margin-bottom: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Settings {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    position: flex;
+    width: 800px;
+    margin-left: 15px;
+    height: auto;
+    margin-bottom: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TextBig {
+    color: #cacaca;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.SettingsActive {
+    color: #cacaca;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    background-color: #37373A;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.form-input__field_max {
+    margin: 0;
+    width: 782px;
+    border-radius: 5px;
+    color: #bfbfbf;
+    border: solid 1px #3b3d45;
+    background-color: #1c1c1c;
+    padding: 5px 8px;
+}
+
+.form-select_max {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: 5px;
+    color: #bfbfbf;
+    border: solid 1px #3b3d45;
+    background-color: #1c1c1c;
+    padding: 5px 12px;
+}
+
+.form-input__field_max:focus {
+    border-color: #45464b; /* Change the border color to blue when input field is focused */
+    outline: none; /* Remove the default focus outline */
+}
+  
+.form-input__field_max:hover:hover{
+    border: solid 1px #45464b;
+}
+
+.textarea {
+    display: block;
+    margin: 0;
+    width: 794px;
+    border-radius: 5px;
+    color: #bfbfbf;
+    border: solid 1px #3b3d45;
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    height: 120px;
+    min-height: 20px;
+    resize: vertical;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+}
+
+.UploadArea2 {
+    border: 2px dashed #454547;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.UploadArea2 label {
+    cursor: pointer;
+    color: #8A8A8E;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 700;
+}

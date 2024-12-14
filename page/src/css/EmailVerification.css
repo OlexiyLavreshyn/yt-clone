@@ -1,0 +1,30 @@
+.centered-input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+
+  .main{
+    background-color: #1c1d1f;
+    width: 100%;
+  }
+  .button_el{
+    border-radius: 8px;
+    padding: 5px;
+  }
+  .button_el button{
+    background-color: pink;
+    height: 50px;
+  }
+  .verification-status{
+    color: white;
+  }
+  
+  .EmailLoginButton{
+color: #eee9e9;
+  }
+  .verification-status{
+    color: #f30505;
+
+ }
